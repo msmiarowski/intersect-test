@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="YouTube video player using YouTube API">
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    
+    <title>YouTube video player</title>
+</head>
+<body>
+    
+    <div id="container">
+        <header>
+            <h1>YouTube video player</h1>
+            <div id="search-box">
+                <form role="search" aria-label="Search Videos">
+                    <label for="search" class="screen-reader-text">Search videos</label>
+                    <input type="text" class="form-control" id="search" placeholder="Search videos" name="search">
+                </form>
+                <a class="clear" href="">clear search</a>
+            </div>
+        </header>
+        
+        
+        <section>
+            <article id="video"><!-- show main video --></article>
+            <article id="main-details"><!-- show main video details --></article>
+        </section>
+        
+        <main>
+            <h2>Select a video to watch:</h2>
+            <!-- show listing of videos -->
+        </main>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/bf1af8b57b.js"></script>
+    <script src="scripts.js"></script>
+    <script src="https://apis.google.com/js/client.js"></script>
+    
+</body>
+</html>
